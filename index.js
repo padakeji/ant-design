@@ -1,4 +1,4 @@
-require('./style/index.less');
+//require('./style/index.less');
 
 // matchMedia polyfill for
 // https://github.com/WickyNilliams/enquire.js/issues/82
@@ -10,7 +10,7 @@ window.matchMedia = window.matchMedia || function() {
   };
 };
 
-const antd = {
+var antd = {
   Affix: require('./components/affix'),
   Datepicker: require('./components/datepicker'),
   Tooltip: require('./components/tooltip'),
